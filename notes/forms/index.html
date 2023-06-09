@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Products</h2>
+    <button id="increment">Increment</button>
+    <button id="decrement">Decrement</button>
+    <h2>Form</h2>
+    <div id="form-container">
+      <form id="create-form" action="">
+        <label for="name">Course name</label>
+        <input type="text" id="name" name="name" />
+        <label for="type">Course Type</label>
+        <select name="type" id="type">
+          <option value="undergraduate">Undergraduate</option>
+          <option value="graduate">Graduate</option>
+        </select>
+        <label for="ects">ECTS</label>
+        <input type="number" id="ects" name="ects" />
+        <label for="lcheck1">HTML</label>
+        <input type="checkbox" name="lcheck1" id="lcheck1" value="HTML" />
+        <label for="lcheck2">CSS</label>
+        <input type="checkbox" name="lcheck2" id="lcheck2" value="CSS" />
+        <label for="lcheck3">JavaScript</label>
+        <input type="checkbox" name="lcheck3" id="lcheck3" value="JavaScript" />
+        <label for="rradio1">YES</label>
+        <input type="radio" name="radio" id="rradio1" value="Yes" />
+        <label for="rradio2">NO</label>
+        <input type="radio" name="radio" id="rradio2" value="No" />
+        <label for="inactive">Inactive Course</label>
+        <input type="radio" name="inactive" id="inactive" />
+        <button>Create new</button>
+      </form>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Course</th>
+          <th>ECTS</th>
+          <th>Languages</th>
+          <th>Type</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- <tr>
+          <td>COURSE</td>
+          <td>ECTS</td>
+          <td>Languages</td>
+          <td>Type</td>
+        </tr> -->
+      </tbody>
+    </table>
+  </body>
+  <script src="app.js"></script>
+</html>
